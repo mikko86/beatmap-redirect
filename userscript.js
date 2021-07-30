@@ -14,7 +14,7 @@
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
-(function() {
+(() => {
     'use strict';
 
     // Your code here...
