@@ -18,8 +18,7 @@
 
 (() => {
     'use strict';
-
-    // Your code here...
+    
     var url = window.location.hostname;
     var urlPathname = window.location.pathname;
 
