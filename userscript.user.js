@@ -12,15 +12,12 @@
 // @include      https://akatsuki.pw*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
-// @updateURL    https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.js
-// @downloadURL  https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.js
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
-// @require      http://timeago.yarp.com/jquery.timeago.js
 // ==/UserScript==
 
 (() => {
     'use strict';
-    
+
+    // Your code here...
     var url = window.location.hostname;
     var urlPathname = window.location.pathname;
 
