@@ -22,6 +22,8 @@
 // @require      http://timeago.yarp.com/jquery.timeago.js
 // ==/UserScript==
 
+/*global GM, $, GM_xmlhttpRequest, GM_setValue, GM_getValue, unsafeWindow */
+
 (() => {
     'use strict';
 
