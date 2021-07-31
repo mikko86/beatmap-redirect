@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         akatsuki redirect
 // @namespace    isak
-// @version      1
+// @version      1.1
 // @description  redirects you to the osu.ppy.sh beatmap page
 // @author       isak løvås
 // @match        http://akatsuki.pw/*
@@ -17,15 +17,15 @@
 // ==/UserScript==
 
 (() => {
-    'use strict';
-    
+    "use strict";
+
     var url = window.location.hostname;
     var urlPathname = window.location.pathname;
 
-    if (url === "akatsuki.pw" && urlPathname[1] === "b") {
+    if (url === "akatsuki.pw" && urlPathname[1] === "b" && urlPathname[2] == "/") {
         let a = confirm("Do you want to redirect to osu.ppy.sh beatmap page?")
-        if (a == true && url === "akatsuki.pw" && urlPathname[1] === "b") {
-            window.location.href = "https://osu.ppy.sh" + urlPathname;
+        if (a === true && url === "akatsuki.pw" && urlPathname[1] === "b") {
+            window.open("https://osu.ppy.sh" + urlPathname);
     } else {
         return false;
     }
