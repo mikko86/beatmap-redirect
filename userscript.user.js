@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         akatsuki redirect
 // @namespace    isak
-// @version      1.1
+// @version      1.2
 // @description  redirects you to the osu.ppy.sh beatmap page
 // @author       isak løvås
 // @match        http://akatsuki.pw/*
