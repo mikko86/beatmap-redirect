@@ -12,8 +12,8 @@
 // @include      https://akatsuki.pw*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
-// @updateURL    https://github.com/isaklovas/beatmap-redirect/raw/master/userscript.user.js
-// @downloadURL  https://github.com/isaklovas/beatmap-redirect/raw/master/userscript.user.js
+// @updateURL    https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.user.js
+// @downloadURL  https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.user.js
 // ==/UserScript==
 
 (() => {
