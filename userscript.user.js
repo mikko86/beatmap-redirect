@@ -28,9 +28,8 @@
         let a = confirm("Do you want to redirect to osu.ppy.sh beatmap page?");
         if (a) {
             window.open("https://osu.ppy.sh" + urlPathname);
-    }else {
+    } else {
         console.log("false");
     }
 }
-
 })();
