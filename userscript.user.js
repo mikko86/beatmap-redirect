@@ -20,7 +20,7 @@
     var url = window.location.hostname;
     var urlPathname = window.location.pathname;
     
-    if (url == "akatsuki.pw" && urlPathname[1] && urlPathname[8] == "s" && urlPathname[9] == "/") {
+    if (url == "akatsuki.pw" && urlPathname[8] == "s" && urlPathname[9] == "/") {
         let a = confirm("Do you want to redirect to osu.ppy.sh beatmap page?")
         if (a) {
             window.open("https://osu.ppy.sh" + urlPathname)
