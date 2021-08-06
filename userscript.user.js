@@ -10,8 +10,8 @@
 // @include      http://osu.ppy.sh*
 // @include      https://old.ppy.sh*
 // @include      https://akatsuki.pw*
-// @updateURL    https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.js
-// @downloadURL  https://raw.githubusercontent.com/isaklovas/beatmap-redirect/master/userscript.js
+// @updateURL    https://github.com/isaklovas/beatmap-redirect/raw/main/userscript.user.js
+// @downloadURL  https://github.com/isaklovas/beatmap-redirect/raw/main/userscript.user.js
 // ==/UserScript==
 
 (() => {
