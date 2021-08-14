@@ -25,7 +25,7 @@
             window.open("https://osu.ppy.sh" + urlPathname);
         }
     } else if (url == "akatsuki.pw" && urlPathname[1] == "b" && urlPathname[2] == "/") {
-        let a = confirm("Do you want to redirect to osu.ppy.sh beatmap page?");
+        let a = confirm("Do you want to redirect to the osu.ppy.sh beatmap page?");
         if (a) {
             window.open("https://osu.ppy.sh" + urlPathname);
     } else {
