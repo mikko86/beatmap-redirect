@@ -20,8 +20,8 @@
 // @include      https://ez-pp.farm*
 // @include      https://ussr.pl*
 // @include      https://iteki.pw*
-// @updateURL    https://github.com/isaklovas/beatmap-redirect/raw/main/redirect.user.js
-// @downloadURL  https://github.com/isaklovas/beatmap-redirect/raw/main/redirect.user.js
+// @updateURL    https://github.com/isaklovas/beatmap-redirect/raw/main/userscript.user.js
+// @downloadURL  https://github.com/isaklovas/beatmap-redirect/raw/main/userscript.user.js
 // ==/UserScript==
 
 
